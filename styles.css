@@ -1,0 +1,109 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #1a73e8;
+    color: white;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 2em;
+}
+
+.auth-buttons {
+    margin-left: 2em;
+}
+
+.login-btn, .signup-btn {
+    padding: 0.5em 1em;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.signup-btn {
+    background-color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1a73e8;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+}
+
+.cta-btn {
+    background-color: #ff9900;
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+/* Sections */
+section {
+    padding: 2em;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 1em;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    width: 30%;
+}
+
+h2 {
+    margin-bottom: 1em;
+    color: #1a73e8;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
